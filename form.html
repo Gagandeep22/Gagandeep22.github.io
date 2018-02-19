@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp</title>
+	<style type="text/css">
+		
+		body{
+			background: url("w5.jpeg");
+			background-repeat: no-repeat;
+			background-size: 100%;
+			font-family: 'comic sans ms', sans-serif;
+		}	
+
+		.div1{
+			text-align: center;
+			text-shadow: 3px 3px black;
+			color: white;
+		}
+
+		.div2{
+			text-align: center;
+			text-shadow: 3px 3px black;
+			color: white;
+			font-size: 22px;
+			padding: 20px 20px;
+			border: 3px groove white;
+			border-radius: 25px;
+			margin: 20px 196px;
+		}
+
+		.btn{
+			color: white;
+			padding: 5px 15px;
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="div1"><h1>Sign Up</h1></div>
+	<div class="div2">
+		<form method="get">
+			First Name:&nbsp;&nbsp;
+			<input type="text" name="fname"><br><br>
+			Last Name:&nbsp;&nbsp;&nbsp;
+			<input type="text" name="lname"><br><br>
+			Email Id:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="Email" name="Email"><br><br>
+			Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="Password" name="pass"><br><br>
+			Date of Birth:&nbsp;&nbsp;&nbsp;
+			<input type="Date" name="dob" max="2016-12-31"><br><br>
+			Gender: &nbsp;
+			<input type="radio" name="gender" value="male" checked>Male&nbsp;&nbsp;
+			<input type="radio" name="gender" value="female">Female&nbsp;&nbsp;
+			<input type="radio" name="gender" value="other">Other<br><br>
+			Topics you are interested in:<br>
+			<input type="checkbox" name="t1">HTML<br>
+			<input type="checkbox" name="t2">CSS<br>
+			<input type="checkbox" name="t3">BootStrap<br>
+			<input type="checkbox" name="t4">JavaScript<br>
+			<input type="checkbox" name="t5">jQuery<br>
+			<input type="checkbox" name="t6">PHP<br>
+			<input type="checkbox" name="t7">mySQL<br><br>
+			<input type="submit" class="btn" onclick="alert('Thank You for registering with us!')" value="SignUp">
+			<input type="reset" class="btn">
+		</form>
+	</div>
+
+
+</body>
+</html>
